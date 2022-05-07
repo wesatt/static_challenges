@@ -16,6 +16,12 @@ h1  {
   float: right
 }
 
+nav {
+  display: block;
+  padding: 20;
+  background-color: black;
+}
+
 a {
   padding-left: 10;
   font-weight: normal;
@@ -24,14 +30,9 @@ a {
   float: right
 }
 
-nav {
-  padding: 20;
-  background-color: black;
-}
-
-body {
-  display: block;
-  float: left;
+#main-and-aside {
+  display: -webkit-flex;
+  display: flex;
 }
 
 #denver-art-museum {
@@ -43,6 +44,7 @@ body {
 }
 
 h2 {
+  display: flex;
   margin-left: 30;
   border: 0;
   padding: 0;
@@ -52,7 +54,8 @@ h2 {
   vertical-align: baseline;
 }
 
-section {
+#lorem-ipsum {
+  display: block;
   margin-left: 30px;
   width: 750px;
   border: 0;
@@ -64,23 +67,10 @@ section {
 }
 
 aside {
-  display: block;
-  position: absolute;
-  top: 100px;
-  right: 0px;
-}
-
-.pictures {
-}
-
-img {
-  width: 300px;
-  margin-top: 10;
-  margin-bottom: 20;
-  margin-right: 10;
 }
 
 h3 {
+  display: flex;
   margin-top: 20;
   border: 0;
   padding: 0;
@@ -88,6 +78,15 @@ h3 {
   font-family: Arial;
   font-weight: bold;
 }
+
+img {
+  display: flex;
+  width: 300px;
+  margin-top: 10;
+  margin-bottom: 20;
+  margin-right: 10;
+}
+
 
 footer {
   padding: 20;
