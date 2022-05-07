@@ -1,0 +1,100 @@
+header {
+  padding: 20;
+  background-color: darkred;
+}
+h1  {
+  font-size: 150%;
+  font-weight: bold;
+  color: white;
+  font-family: Arial;
+}
+
+#login {
+  font-weight: bold;
+  color: white;
+  font-family: Arial;
+  float: right
+}
+
+a {
+  padding-left: 10;
+  font-weight: normal;
+  color: white;
+  font-family: Arial;
+  float: right
+}
+
+nav {
+  padding: 20;
+  background-color: black;
+}
+
+body {
+  display: block;
+  float: left;
+}
+
+#denver-art-museum {
+  margin: 20;
+  border: 0;
+  padding: 0;
+  width: 800px;
+  vertical-align: baseline;
+}
+
+h2 {
+  margin-left: 30;
+  border: 0;
+  padding: 0;
+  font-size: 150%;
+  font-family: Arial;
+  font-weight: bold;
+  vertical-align: baseline;
+}
+
+section {
+  margin-left: 30px;
+  width: 750px;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: Arial;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+aside {
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+
+.pictures {
+}
+
+img {
+  width: 300px;
+  margin-top: 10;
+  margin-bottom: 20;
+  margin-right: 10;
+}
+
+h3 {
+  margin-top: 20;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20;
+  background-color: black;
+  vertical-align: bottom;
+  font-size: 100%;
+  font-weight: normal;
+  color: white;
+  font-family: Arial;
+}
